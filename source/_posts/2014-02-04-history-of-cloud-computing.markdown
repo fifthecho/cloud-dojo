@@ -1,0 +1,32 @@
+---
+layout: post
+title: "History of Cloud Computing"
+date: 2014-02-04 13:20:53 -0500
+comments: true
+categories: cloud, history, cloud computing
+---
+In the beginning, there was a computer. Then there were two and people wanted to make them talk to each other.
+
+No, this isn't going to be a deep-dive into the history of computer networking, however, understanding a bit of computing history is necessary to understand the origins of the Cloud Computing boom.
+
+To start, the concepts behind Cloud Computing are hardly very new. In the 1960s and 1970s, universities had [big iron](http://en.wikipedia.org/wiki/Big_iron_(computing)) and UNIX mainframes that they would lease time on out to professors, students, and companies. The majority of these systems fell out of vogue with the rise of [microcomputers](http://en.wikipedia.org/wiki/Microcomputer_revolution) (what you would call a computer today).
+
+However, the mainframes of yesteryear provided two of the main technological concepts that drive modern Cloud Computing - [virtualization](http://en.wikipedia.org/wiki/Virtualization) and [resource sharing](http://en.wikipedia.org/wiki/Time-sharing). However, we're getting ahead of ourselves.
+
+From a 1,000 foot view of the Internet today, you may or may not be aware that every website you connect to and any online interaction you engage in (be it from your computer, your phone, your tablet, or whatever "smart" device you may be using) is in reality a stream of communication between your device and one or more servers being run by whomever provides the service you are using. Facebook, for example, is not run on an iMac in Mr. Zuckerburg's house, but rather thousands of [servers](http://en.wikipedia.org/wiki/Server_(computing)) (a server is very similar to your computer, but is usually substantially more powerful, reliable, and expensive). As the computing has grown to be as widespread as it is today, these servers are usually physically located in a [data center](http://en.wikipedia.org/wiki/Data_center) (or DC) to provide the most efficient use of high-powered battery backups and air-conditioners used to power and cool the computers.
+
+With the rise of data centers and companies needing to connect these pools of computers together, more and more complex [networks](http://en.wikipedia.org/wiki/Computer_network) were built to support connecting these buildings together (often over great distances). The Internet itself is, in fact, powered by (or is, depending on who you talk to) a global network. As companies started to leverage the Internet to connect their data centers together, they started to build [network diagrams](http://en.wikipedia.org/wiki/Computer_network_diagram) that used a single [cloud icon](http://en.wikipedia.org/wiki/File:Sample-network-diagram.png) to represent the Internet (are you starting to see where we're going?)
+
+As computers became more and more powerful, software developers built mechanisms to be able to build an full imaginary computer running inside of their physical computer (and creatively called it a [virtual machine](http://en.wikipedia.org/wiki/Virtual_machine) or VM) which, while taking from concepts from the days of mainframes and Big Iron, could now run a full [operating system](http://en.wikipedia.org/wiki/Operating_system) (think Windows, Mac OS X, or Linux) rather than an isolated instance of the parent operating system. This allowed developers to build applications and be able to test their software applications on different versions of operating systems without having to own multiple physical computers.
+
+As building virtual machines for various software testing purposes became more and more common and computers more and more powerful, in 2005-2006, both AMD and Intel (the two major vendors of computer processor manufacturers) built processor-level commands to provide faster and more powerful virtual machines. With the addition of hardware assistance to running a virtual machine, many times a VM running on a server could perform tasks comparably well a to if it was running on its own physical server. This provided fuel for the growing [hypervisor](http://en.wikipedia.org/wiki/Hypervisor) market (a hypervisor is a special operating system designed for running virtual machines) and the idea of the virtualized data center - where a small number of physical servers could provide the infrastructure needed to run a substantially larger number of virtual servers to complete a complex task or run a complex application.
+
+So, with all of this background, how does this lead to Cloud Computing?
+
+Easily. There are a lot of arguments as to how Cloud Computing as a term and concept was born, but the popularization and current concepts around the term were born in 2006 when Amazon release their Elastic Compute Cloud. Now, why would Amazon, an online bookstore, release a resource-sharing platform to provide computing to other people? The anecdotal story goes that Amazon required a substantial number of servers to handle the traffic of their Christmas season sales but for the remaining 10 months of the year, those servers sat in their data centers largely idle. Amazon decided that rather than letting these servers waste space, electricity, and money sitting idle that they could install hypervisors on the unused servers and provide facilities for software developers who needed servers to work with faster than their company's traditional purchasing process could provide them to be able to create a virtual machine running on Amazon's hardware on-demand.
+
+Hardly a new concept, however, their implementation was able to provide virtual computers fast enough and cheaply enough that Amazon's virtualization service was tremendously attractive. Amazon called their platform the Elastic Compute Cloud (or EC2) because the servers could be created and destroyed on-demand (hence the Elastic) and were running at an ambiguous location in the Internet (hence the Cloud).
+
+Amazon's EC2 platform is undeniably the leader of the pack of service providers that offer Cloud Computing to the world, but there are several fast-followers including (but not limited to): Google, Microsoft, Rackspace, and Datapipe.
+
+Hopefully this has provided some clarity to the origins of Cloud Computing and some of the terminology used to describe the variety of technologies that have made it possible.  
