@@ -4,13 +4,22 @@
   <title><![CDATA[Cloud Dojo]]></title>
   <link href="http://cloud-dojo.com/atom.xml" rel="self"/>
   <link href="http://cloud-dojo.com/"/>
-  <updated>2014-02-04T10:18:24-05:00</updated>
+  <updated>2014-02-04T10:34:44-05:00</updated>
   <id>http://cloud-dojo.com/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[Jeff Moody]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Introduction]]></title>
+    <link href="http://cloud-dojo.com/blog/2014/02/04/introduction/"/>
+    <updated>2014-02-04T10:33:52-05:00</updated>
+    <id>http://cloud-dojo.com/blog/2014/02/04/introduction</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
   
 </feed>
