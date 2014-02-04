@@ -3,7 +3,7 @@ layout: post
 title: "History of Cloud Computing"
 date: 2014-02-04 13:20:53 -0500
 comments: true
-categories: cloud, history, cloud computing
+categories: [cloud, history, cloud computing, hypervisor, virtualization, VM, AWS, Amazon Web Services, EC2]
 ---
 In the beginning, there was a computer. Then there were two and people wanted to make them talk to each other.
 

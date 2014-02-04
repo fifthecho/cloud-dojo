@@ -2,15 +2,19 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
         <loc>http://cloud-dojo.com/blog/2014/02/04/introduction/</loc>
-        <lastmod>2014-02-04T10:33:52-05:00</lastmod>
+        <lastmod>2014-02-04T11:02:54-05:00</lastmod>
+    </url>
+    <url>
+        <loc>http://cloud-dojo.com/blog/2014/02/04/history-of-cloud-computing/</loc>
+        <lastmod>2014-02-04T16:13:11-05:00</lastmod>
     </url>
     <url>
         <loc>http://cloud-dojo.com/blog/archives/</loc>
-        <lastmod>2014-02-04T10:33:52-05:00</lastmod>
+        <lastmod>2014-02-04T16:13:11-05:00</lastmod>
     </url>
     <url>
         <loc>http://cloud-dojo.com/</loc>
-        <lastmod>2014-02-04T10:33:52-05:00</lastmod>
+        <lastmod>2014-02-04T16:13:11-05:00</lastmod>
     </url>
     <url>
         <loc>http://cloud-dojo.com/robots.txt</loc>
